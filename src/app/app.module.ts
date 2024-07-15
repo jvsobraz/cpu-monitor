@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { CommonModule } from '@angular/common'; // Importe o CommonModule
+import { CommonModule } from '@angular/common';
 import { AppComponent } from './app.component';
 import { CpuMonitorComponent } from './cpu-monitor/cpu-monitor.component';
 import { CpuService } from './cpu.service';
@@ -12,7 +12,7 @@ import { CpuService } from './cpu.service';
   ],
   imports: [
     BrowserModule,
-    CommonModule // Adicione o CommonModule às importações
+    CommonModule
   ],
   providers: [CpuService],
   bootstrap: [AppComponent]
