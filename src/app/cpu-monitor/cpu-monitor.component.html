@@ -1,1 +1,10 @@
-<p>cpu-monitor works!</p>
+<div>
+    <h2>Monitor de Atividade da CPU</h2>
+    <p>Uso da CPU: {{ cpuData.cpuUsage | number: "1.2-2" }}%</p>
+    <h3>Processos Ativos</h3>
+    <ul>
+        <li *ngFor="let process of cpuData.process">
+            {{ process.name }} - Uso de CPU: {{ process.cpuUsage }}%
+        </li>
+    </ul>
+</div>
