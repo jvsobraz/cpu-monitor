@@ -5,7 +5,7 @@ import { cpuUsage } from 'process';
 @Component({
   selector: 'app-cpu-monitor',
   templateUrl: './cpu-monitor.component.html',
-  styleUrl: './cpu-monitor.component.css'
+  styleUrl: './cpu-monitor.component.css',
 })
 export class CpuMonitorComponent implements OnInit {
   cpuData: any = { cpuUsage: 0, processes: [] };

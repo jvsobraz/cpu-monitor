@@ -7,7 +7,7 @@ import { CpuService } from './cpu.service';
 
 @NgModule({
   declarations: [
-    AppComponent,
+    //AppComponent,
     CpuMonitorComponent
   ],
   imports: [
@@ -15,6 +15,6 @@ import { CpuService } from './cpu.service';
     CommonModule
   ],
   providers: [CpuService],
-  bootstrap: [AppComponent]
+  //bootstrap: [AppComponent]
 })
 export class AppModule { }
